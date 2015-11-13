@@ -14,6 +14,3 @@ on fs
 
 on post-fs-data
     mkdir /data/media 0770 media_rw media_rw
-
-service sdcard /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
-    class late_start
