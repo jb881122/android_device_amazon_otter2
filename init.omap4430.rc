@@ -1,5 +1,5 @@
 import init.otter-common.rc
-import init.omap4.rc
+import init.omap4-amazon.rc
 import init.omap4430.usb.rc
 
 on init
