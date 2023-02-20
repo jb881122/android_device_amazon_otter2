@@ -3,7 +3,7 @@
 
 umask 0022
 
-OLD_NVS=$(mktemp)
+OLD_NVS=/tmp/wl1271-nvs.bin
 SYS_NVS=/system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
 NEW_NVS=/system/etc/firmware/ti-connectivity/wl1271-nvs.bin
 
